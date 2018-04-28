@@ -1,15 +1,15 @@
 {
     "name": "sqlup-example",
     "version": "0.0.2",
-    "path": "{{{DATA_PATH}}}",
+    "path": "/sqlup",
     "waitStartup": 20,
     "server": {
         "type": "mysql",
-        "host": "{{{SQLUP_HOST}}}",
+        "host": "mysql",
         "port": "3306",
         "user": "root",
-        "password": "{{{SQLUP_PWD}}}",
-        "database": "{{{SQLUP_DB}}}"
+        "password": "password",
+        "database": "sqlup_example"
     },
     "sequence": {
         "0.0.0": "v0.0.0.sql",
