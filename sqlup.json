@@ -5,11 +5,11 @@
     "waitStartup": 20,
     "server": {
         "type": "mysql",
-        "host": "mysql",
+        "host": "{{{SQLUP_HOST}}}",
         "port": "3306",
         "user": "root",
-        "password": "password",
-        "database": "sqlup_example"
+        "password": "{{{SQLUP_PWD}}}",
+        "database": "{{{SQLUP_DB}}}"
     },
     "sequence": {
         "0.0.0": "v0.0.0.sql",
